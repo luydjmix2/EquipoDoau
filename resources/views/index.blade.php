@@ -14,6 +14,21 @@
     <title>Doau en tu Barrio</title>
 </head>
 <body>
+    <ul class="nav nav-pill justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Regístra tu negocio</a>
+        </li><li class="nav-item">
+            <a class="nav-link" href="#">Ayuda el línea</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Regístrate</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Ingresar</a>
+        </li>
+    </ul>
+
     <h1 class="text-center">¿Dónde nos necesitas?</h1>
     
     <section>
