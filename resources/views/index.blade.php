@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html class="" xmlns:fb="" xmlns:og="" lang="en">
 <head>
-    <script type="" defer="" async="" src="" ></script>
-
     <link rel="stylesheet" href="/css/css.css"> <!-- CSS -->
-    
     <meta http-equiv="Content-Type" content="text/html">
     <meta charset="UTF-8">     
     <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
@@ -16,123 +13,131 @@
 <body>
     <section>
         <div class="card bg-dark text-white">
-            <!-- salchichas <img src="https://cdn.pixabay.com/photo/2016/05/20/15/41/sausages-in-a-dressing-gown-1405207_960_720.jpg" class="card-img" alt="..."> -->
-            <!-- Domicilios <img src="https://images.deliveryhero.io/image/pedidosya/header-backgrounds/mix-1.jpg" class="card-img" alt="...">   -->
-            <img src="https://cdn.pixabay.com/photo/2017/09/23/12/40/catering-2778755_960_720.jpg" class="card-img" alt="..."> 
+            <img src="/brochetas.jpg" class="card-img" alt="..."> 
             <div class="card-img-overlay">
-                <nav>
-                    <ul class="nav nav-pill justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link active btn btn-secondary" href="#">Regístra tu negocio</a>
-                        </li><li class="nav-item">
-                            <a class="nav-link text-white" href="#">Ayuda en línea</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Regístrate</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Ingresar</a>
-                        </li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-0">
+                    <a class="navbar-brand" href="#">{{config('app.name')}}</a>
+                    <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- <ul class="navbar-nav mr-auto"> -- <ul class="nav nav-pill"> -->
+                        <ul class="nav mr-auto nav-pill">
+                            <li class="nav-item active">
+                                <a class="nav-link btn btn-outline text-white" href="#"><strong>Regístra tu negocio </strong><span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Ayuda en línea</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Regístrate</a>
+                            </li>                            
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Ingresar</a>
+                            </li>
+                      </ul>
+                    </div>
                 </nav>                
                 <div>  <!-- titulo y formulario -->
-                    <h1 class="text-center hgroups">¿Dónde nos necesitas?</h1>
-                    <div>
+                    <h2 class="text-center hgroups"><strong>¿Dónde nos necesitas?</strong></h2>
+                    <div class="content">
                         <span class="location-text">Dirección de entrega</span>
                         <form action="" method="POST" >                        
-                            <div class="form-row align-items-center">
-                                <!-- <div class="card mb-3" style="max-width: 700px;"> -->
-                                <select class="custom-select"><option value="972">Armenia</option>
-                                    <option value="996">Barrancabermeja</option>
-                                    <option value="1009">Barranquilla</option>
-                                    <option value="1086">Bello</option>
-                                    <option value="975" selected="selected">Bogotá</option>
-                                    <option value="1013">Bucaramanga</option>
-                                    <option value="991">Cali</option>
-                                    <option value="1126">Cañaveral</option>
-                                    <option value="1005">Cartagena</option>
-                                    <option value="982">Cartago</option>
-                                    <option value="1742">Caucasia</option>
-                                    <option value="979">Chia</option>
-                                    <option value="1745">Cota</option>
-                                    <option value="974">Cucuta</option>
-                                    <option value="1740">Dos Quebradas</option>
-                                    <option value="1101">Dosquebradas</option>
-                                    <option value="1737">El tesoro</option>
-                                    <option value="1089">Envigado</option>
-                                    <option value="1122">Floridablanca</option>
-                                    <option value="983">Funza</option>
-                                    <option value="1463">Gaira/Rodadero</option>
-                                    <option value="1008">Girardot</option>
-                                    <option value="1123">Girón</option>
-                                    <option value="981">Ibague</option>
-                                    <option value="1087">Itagüi</option>
-                                    <option value="1072">Jamundí</option>
-                                    <option value="1000">La Calera</option>
-                                    <option value="1739">Madrid</option>
-                                    <option value="987">Manizales</option>
-                                    <option value="980">Medellín</option>
-                                    <option value="1007">Monteria</option>
-                                    <option value="973">Mosquera</option>
-                                    <option value="985">Neiva</option>
-                                    <option value="1016">Palmira</option>
-                                    <option value="1002">Pasto</option>
-                                    <option value="1011">Pereira</option>
-                                    <option value="1124">Piedecuesta</option>
-                                    <option value="1103">Poblado</option>
-                                    <option value="1003">Popayán</option>
-                                    <option value="1743">Riohacha</option>
-                                    <option value="1426">Rionegro</option>
-                                    <option value="1088">Sabaneta</option>
-                                    <option value="978">Santa Marta</option>
-                                    <option value="998">Santa Rosa de Cabal</option>
-                                    <option value="1744">Sincelejo</option>
-                                    <option value="977">Soacha</option>
-                                    <option value="986">Soledad</option>
-                                    <option value="1104">Tesoro</option>
-                                    <option value="1462">Tocancipá</option>
-                                    <option value="1741">Tulua</option>
-                                    <option value="1014">Tunja</option>
-                                    <option value="997">Valledupar</option>
-                                    <option value="984">Villavicencio</option>
-                                    <option value="1077">Yumbo</option>
-                                </select>
-                                <select class="custom-select custom-select-lg mb-3">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">Calle</option>
-                                    <option value="2">Carrera</option>
-                                    <option value="3">Avenida</option>
-                                    <option value="4">Avenida Carrera</option>
-                                    <option value="5">Avenida Calle</option>
-                                    <option value="6">Circular</option>
-                                    <option value="7">Circunvalar</option>
-                                    <option value="8">Diagonal</option>
-                                    <option value="9">Manzana</option>
-                                    <option value="10">Transversal</option>
-                                    <option value="11">Vía</option>   
-                                </select>
+                            <div class="form-row align-items-center d-flex flex-row">   
 
-                                <div class="col-auto my-1">
+                                <div class="col-auto my-1"> <!-- ciudad -->
                                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                        <option selected>Choose...</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option value="972">Armenia</option>
+                                        <option value="996">Barrancabermeja</option>
+                                        <option value="1009">Barranquilla</option>
+                                        <option value="1086">Bello</option>
+                                        <option value="975" selected="selected">Bogotá</option>
+                                        <option value="1013">Bucaramanga</option>
+                                        <option value="991">Cali</option>
+                                        <option value="1126">Cañaveral</option>
+                                        <option value="1005">Cartagena</option>
+                                        <option value="982">Cartago</option>
+                                        <option value="1742">Caucasia</option>
+                                        <option value="979">Chia</option>
+                                        <option value="1745">Cota</option>
+                                        <option value="974">Cucuta</option>
+                                        <option value="1740">Dos Quebradas</option>
+                                        <option value="1101">Dosquebradas</option>
+                                        <option value="1737">El tesoro</option>
+                                        <option value="1089">Envigado</option>
+                                        <option value="1122">Floridablanca</option>
+                                        <option value="983">Funza</option>
+                                        <option value="1463">Gaira/Rodadero</option>
+                                        <option value="1008">Girardot</option>
+                                        <option value="1123">Girón</option>
+                                        <option value="981">Ibague</option>
+                                        <option value="1087">Itagüi</option>
+                                        <option value="1072">Jamundí</option>
+                                        <option value="1000">La Calera</option>
+                                        <option value="1739">Madrid</option>
+                                        <option value="987">Manizales</option>
+                                        <option value="980">Medellín</option>
+                                        <option value="1007">Monteria</option>
+                                        <option value="973">Mosquera</option>
+                                        <option value="985">Neiva</option>
+                                        <option value="1016">Palmira</option>
+                                        <option value="1002">Pasto</option>
+                                        <option value="1011">Pereira</option>
+                                        <option value="1124">Piedecuesta</option>
+                                        <option value="1103">Poblado</option>
+                                        <option value="1003">Popayán</option>
+                                        <option value="1743">Riohacha</option>
+                                        <option value="1426">Rionegro</option>
+                                        <option value="1088">Sabaneta</option>
+                                        <option value="978">Santa Marta</option>
+                                        <option value="998">Santa Rosa de Cabal</option>
+                                        <option value="1744">Sincelejo</option>
+                                        <option value="977">Soacha</option>
+                                        <option value="986">Soledad</option>
+                                        <option value="1104">Tesoro</option>
+                                        <option value="1462">Tocancipá</option>
+                                        <option value="1741">Tulua</option>
+                                        <option value="1014">Tunja</option>
+                                        <option value="997">Valledupar</option>
+                                        <option value="984">Villavicencio</option>
+                                        <option value="1077">Yumbo</option>+
                                     </select>
                                 </div>
 
-
-
-                                <input type="text" placeholder="Digite  su Dirección" required="">
-                                </input>
-                                <input type="text" placeholder="#" required="">
-                                </input>
-                                <input type="text" placeholder="Digite  su Dirección" required="">
-                                </input>
+                                <div class="col-auto my-1"> <!-- indicación de direcc -->
+                                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                        <option value="1">Calle</option>
+                                        <option value="2">Carrera</option>
+                                        <option value="3">Avenida</option>
+                                        <option value="4">Avenida Carrera</option>
+                                        <option value="5">Avenida Calle</option>
+                                        <option value="6">Circular</option>
+                                        <option value="7">Circunvalar</option>
+                                        <option value="8">Diagonal</option>
+                                        <option value="9">Manzana</option>
+                                        <option value="10">Transversal</option>
+                                        <option value="11">Vía</option> 
+                                    </select>
+                                </div>
+                                <div class="col-auto my-1">
+                                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Dirección">
+                                </div>
+                                <div class="col-auto my-1">
+                                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="#">
+                                </div>
+                                <div class="col-auto my-1">
+                                    <input type="text" class="form-control" id="inlineFormInputName" placeholder="Dirección">
+                                </div>
+                                                               
                                 <button class="btn btn-danger" onclick="" type="button" >Buscar</button>
-
 
                             </div>
                         </form>
